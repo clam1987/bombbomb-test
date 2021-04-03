@@ -2,12 +2,12 @@
   "name": "bombbomb-test",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node server.js",
     "kill": "kill-port 3001",
-    "watch": "npm run kill && nodemon app.js"
+    "watch": "npm run kill && nodemon server.js"
   },
   "keywords": [],
   "author": "",
