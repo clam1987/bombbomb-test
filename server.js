@@ -1,6 +1,5 @@
 const express = require("express"),
       app = express(),
-      logger = require("morgan"),
       PORT = process.env.PORT || 3001,
       fs = require('fs'),
       path = require('path'),
